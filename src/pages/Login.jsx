@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Login extends Component {
     onSubmit = event => {
         event.preventDefault();
-        
+
         this.props.onLogin({
             username: this.usernameInput.value,
             password: this.passwordInput.value
